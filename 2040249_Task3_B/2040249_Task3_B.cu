@@ -16,45 +16,45 @@ Tsering Dikey Lama [2040249], University of Wolverhampton, Herald College Kathma
 
 
 
-__device__ unsigned int d_width;
+__device__ unsigned int device_width;
 
 __device__ unsigned char getRed(unsigned char *image, unsigned int row, unsigned int col){
-	unsigned int i = (row * d_width * 4) + (col * 4);
+	unsigned int i = (row * device_width * 4) + (col * 4);
 	return image[i];
   }
   
   __device__ unsigned char getGreen(unsigned char *image, unsigned int row, unsigned int col){
-	unsigned int i = (row * d_width * 4) + (col * 4) +1;
+	unsigned int i = (row * device_width * 4) + (col * 4) +1;
 	return image[i];
   }
   
   __device__ unsigned char getBlue(unsigned char *image, unsigned int row, unsigned int col){
-	unsigned int i = (row * d_width * 4) + (col * 4) +2;
+	unsigned int i = (row * device_width * 4) + (col * 4) +2;
 	return image[i];
   }
   
   __device__ unsigned char getAlpha(unsigned char *image, unsigned int row, unsigned int col){
-	unsigned int i = (row * d_width * 4) + (col * 4) +3;
+	unsigned int i = (row * device_width * 4) + (col * 4) +3;
 	return image[i];
   }
   
   __device__ void setRed(unsigned char *image, unsigned int row, unsigned int col, unsigned char red){
-	unsigned int i = (row * d_width * 4) + (col * 4);
+	unsigned int i = (row * device_width * 4) + (col * 4);
 	image[i] = red;
   }
   
   __device__ void setGreen(unsigned char *image, unsigned int row, unsigned int col, unsigned char green){
-	unsigned int i = (row * d_width * 4) + (col * 4) +1;
+	unsigned int i = (row * device_width * 4) + (col * 4) +1;
 	image[i] = green;
   }
   
   __device__ void setBlue(unsigned char *image, unsigned int row, unsigned int col, unsigned char blue){
-	unsigned int i = (row * d_width * 4) + (col * 4) +2;
+	unsigned int i = (row * device_width * 4) + (col * 4) +2;
 	image[i] = blue;
   }
   
   __device__ void setAlpha(unsigned char *image, unsigned int row, unsigned int col, unsigned char alpha){
-	unsigned int i = (row * d_width * 4) + (col * 4) +3;
+	unsigned int i = (row * device_width * 4) + (col * 4) +3;
 	image[i] = alpha;
   }
   
@@ -78,7 +78,7 @@ __global__ void square(unsigned char * gpu_imageOutput, unsigned char * gpu_imag
 	int row = blockIdx.x+1;
 	int col = threadIdx.x+1;
 
-	d_width = *width;
+	device_width = *width;
 	
 	setGreen(gpu_imageOutput, row, col, getGreen(gpu_imageInput, row, col));
 	setBlue(gpu_imageOutput, row, col, getBlue(gpu_imageInput, row, col));
