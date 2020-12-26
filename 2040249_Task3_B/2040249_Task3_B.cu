@@ -11,7 +11,7 @@ nvcc -o 2040249_Task3_B 2040249_Task3_B.cu lodepng.cpp
 to run:
 ./2040249_Task3_B_Task3_B
 
-Tsering Dikey Lama, University of Wolverhampton, Herald College Kathmandu
+Tsering Dikey Lama [2040249], University of Wolverhampton, Herald College Kathmandu
 */
 
 

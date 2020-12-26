@@ -11,7 +11,7 @@ gcc -o 2040249_Task2_B 2040249_Task2_B.c -lpthread
 to run:
 ./2040249_Task2_B
 
-Tsering Dikey Lama, University of Wolverhampton, Herald College Kathmandu
+Tsering Dikey Lama [2040249], University of Wolverhampton, Herald College Kathmandu
 */
 #define MAT_SIZE 1024
 

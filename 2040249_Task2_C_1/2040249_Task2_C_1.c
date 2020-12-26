@@ -17,7 +17,7 @@
   output to a file that you can view using an editor or the less utility:
     ./CrackAZ99 > output.txt
 
-  Tsering Dikey Lama, University of Wolverhampton, Herald College Kathmandu
+  Tsering Dikey Lama [2040249], University of Wolverhampton, Herald College Kathmandu
 ******************************************************************************/
 
 int count=0;     // A counter used to track the number of combinations explored so far

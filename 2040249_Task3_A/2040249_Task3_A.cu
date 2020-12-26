@@ -9,7 +9,7 @@
 	to run:
 	./2040249_Task3_A
 
-	Tsering Dikey Lama, University of Wolverhampton, Herald College Kathmandu
+	Tsering Dikey Lama [2040249], University of Wolverhampton, Herald College Kathmandu
 */
 
 

@@ -18,7 +18,7 @@
 
     ./2040249_Task2_C_5 > Task2_C_5.txt
 
-  Tsering Dikey Lama, University of Wolverhampton, Herald College Kathmandu
+  Tsering Dikey Lama [2040249], University of Wolverhampton, Herald College Kathmandu
 ******************************************************************************/
 
 

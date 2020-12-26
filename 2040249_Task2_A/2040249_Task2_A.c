@@ -13,7 +13,7 @@ gcc -o 2040249_Task2_A 2040249_Task2_A.c
 to run:
 ./2040249_Task2_A
 
-Tsering Dikey Lama, University of Wolverhampton, Herald College Kathmandu
+Tsering Dikey Lama [2040249], University of Wolverhampton, Herald College Kathmandu
 
 */
 

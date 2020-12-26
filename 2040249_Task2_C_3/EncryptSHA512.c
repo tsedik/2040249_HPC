@@ -13,7 +13,7 @@
   To encrypt the password "pass":
     ./EncryptSHA512 pass
 
-  Tsering Dikey Lama, University of Wolverhampton, Herald College Kathmandu
+  Tsering Dikey Lama [2040249], University of Wolverhampton, Herald College Kathmandu
 ******************************************************************************/
 
 #define SALT "$6$AS$"
